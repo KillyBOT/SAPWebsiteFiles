@@ -23,13 +23,24 @@
     </div>
     <div class='MainPages'>
       <p>Add your own stories!</p>
-      <form>
+      <form action='mailto:edwards.kyle.j@gmail.com' method='post' enctype='text/plain'>
+        Name:<br>
+        <input type='text' name='name'><br>
+        Email:<br>
+        <input type='text' name='mail'><br>
+        Put Your Link And A Small Explanation Of What The Website Or Story Is:<br>
+        <textarea name='comment' rows='10' cols='30'></textarea><br>
+        <input type='submit' value='Submit Suggestion'>
+        <input type='reset' value='Reset'>
       </form>
     </div>
     <div class='MainPages'>
       <p>
         <h1>Here are some interesting stories and other interesting science things:</h1>
       </p>
+      <div id='CoolStories'>
+      </div>
+      <button>Load Stories</button>
     </div>
 
   </body>
