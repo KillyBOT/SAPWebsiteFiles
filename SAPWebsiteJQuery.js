@@ -6,18 +6,19 @@ $(document).ready(function(){
       //paddingBottom:'+=10px',
       paddingLeft: '+=10px',
       paddingRight: '+=10px',
-      color: '#999999'
+      opacity: '0.5'
     });
-    $(this).toggleClass('onHover');
+    //$(this).toggleClass('onHover');
   },function(){
     $(this).animate({
       //paddingTop:'-=10px',
       //paddingBottom: '-=10px',
       paddingLeft: '-=10px',
       paddingRight: '-=10px',
-      color:'#000000'
+      //color:'#000000'
+      opacity: '1'
       //height:'-=50px'
     });
-    $(this).toggleClass('onHover');
+    //$(this).toggleClass('onHover');
   });
 });

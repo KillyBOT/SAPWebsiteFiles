@@ -8,6 +8,7 @@
     border-style: solid;
     width: 300px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 #MenuPage {
@@ -17,21 +18,27 @@
 
 #MenuPage ul{
   list-style-type: none;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #999999;
 }
 
 #MenuPage ul li{
   float: left;
-  margin: 5px;
-  cursor: pointer;
-  border-left: 10px solid #cccccc;
-  border-right: 10px solid #cccccc;
-  padding: 10px;
+  border-left: 2px solid black;
+  padding: 15px 15px 10px 10px;
 }
 
-#MenuPage a {
-    cursor: pointer;
-    margin: 15px;
+#MenuPage ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+#MenuPage a:hover{
+  background-color: #111111;
 }
 
 #MenuPage a:link {
@@ -73,6 +80,8 @@
 #MenuPageIframe {
   margin: auto;
   overflow: hidden;
+  position: relative;
+  width: 100%
 }
 
 #MenuPageIframe iframe {
@@ -82,6 +91,21 @@
   margin: 0 auto;
 }
 
-#BooksToReadNavigation{
-  
+#BooksToRead header{
+  background-color: #aaaaaa;
+  text-align: center;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: black;
+}
+
+#BooksToRead nav{
+  float: left;
+  max-width: 190px;
+}
+
+#BooksToRead article{
+  margin-left: 200px;
+  padding-left: 20px;
+  border-left: 5px solid black;
 }

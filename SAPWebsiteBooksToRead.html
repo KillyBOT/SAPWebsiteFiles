@@ -8,22 +8,18 @@
     <script type='text/javascript' src='SAPWebsiteJQuery.js'></script>
   </head>
   <body>
+    <div id="MenuPageIframe">
+      <iframe src="SAPWebsiteMenuPage.html" width="100%" height="100%"></iframe>
+    </div>
     <div id='title'>
       <h1>Books To Read</h1>
       <h4>Some Interesting Books to Read</h4>
     </div>
-    <div id='MenuPageIframe'>
-      <iframe src="SAPWebsiteMenuPage.html" style="width: 100%; height: 100%"></iframe>
+    <div class='MainPages'>
+      <p></p>
     </div>
-    <div class='MainPages' id='BooksToReadNavigation'>
-      <header>
-        <h1>Books To Read</h1>
-      </header>
-
-      <nav>
-      </nav>
-
-      <article>
+    <div class='MainPages' id='BooksToRead'>
+      <iframe src="SAPWebsiteBooksToReadIframe.html" width="100%" height="800"></iframe>
     </div>
   </body>
 </html>
