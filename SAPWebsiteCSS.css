@@ -91,12 +91,8 @@
   margin: 0 auto;
 }
 
-#BooksToRead header{
-  background-color: #aaaaaa;
-  text-align: center;
-  border-width: thin;
-  border-radius: 5px;
-  border-color: black;
+#BooksToRead aside{
+  float:right;
 }
 
 #BooksToRead nav{

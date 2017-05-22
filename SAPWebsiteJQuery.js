@@ -21,4 +21,7 @@ $(document).ready(function(){
     });
     //$(this).toggleClass('onHover');
   });
+  $("#LoadStories button").click(function(){
+    $('#CoolStories').load("SAPWebsitePostedStories.txt")
+  });
 });
